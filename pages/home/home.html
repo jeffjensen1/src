@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+
+<ion-content padding>
+  <h2>Welcome to the Fishing Buddy!</h2>
+  
+ 
+
+
+<button onclick="isTheTemp48()">Is the temperature 48 Degrees and below?</button>
+
+<script>
+function isTheTemp48() {
+    document.getElementById("demo").innerHTML = "Since its a colder time the fish will be deep so jigs and deep diving crackbaits will work best. Stick with bright colors when fish are deep, deeper the water the darker the enviroment gets. Since bass are sluggish during these times a slow presentation is usually the best way to get their attention without shock.";	
+}
+</script>
+ 
+
+<button onclick="isTheTemp48_55()">Is the temperature between 48 and 55 Degrees?</button>
+
+
+
+<script>
+function isTheTemp48_55() {
+    document.getElementById("demo").innerHTML = "Since its starting to warm up Bass will start to move into more shallow water. They wont be too shallow, ";	
+}
+</script>
+ 
+ 
+ 
+ 
+ 
+
+<button onclick="isTheTemp55_70()">Is the temperature between 48 and 55 Degrees?</button>
+
+<p id="demo"></p>
+
+
+<script>
+function isTheTemp55_70() {
+    document.getElementById("demo").innerHTML = "55-70 ";	
+}
+</script>
+  
+  
+
+</ion-content>
